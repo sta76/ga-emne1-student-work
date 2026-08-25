@@ -1,7 +1,9 @@
-number1, number2 = map(float, input("Enter two number separated with space: ").split())
+number1 = int(input("Enter a number and press enter: "))
+number2 = int(input("Enter another number and press enter: "))
 
-#number1 = int(number1)
-#number2 = int(number2)
+# The same but only 1 line of code
+# number1, number2 = map(int, input("Enter two number separated with space: ").split())
+
 addition = number1 + number2
 multiplication = number1 * number2
 

@@ -11,7 +11,7 @@ while attempts_left > 0 and not guessed_correctly:
         print("Try higher")
     else:
         print("You guessed correctly")
-        print((f"You had {attempts_left} left"))
+        print(f"You had {attempts_left} left")
         guessed_correctly = True
     attempts_left -= 1
 if not guessed_correctly:

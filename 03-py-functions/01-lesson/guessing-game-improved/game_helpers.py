@@ -1,12 +1,12 @@
 def read_guess():
-    guess = int(input("Guess a number: (1-30) "))
-    return guess
+    player_guess = int(input("Guess a number: (1-30) "))
+    return player_guess
 
 
-def check_guess(guess, secret_number):
-    if guess == secret_number:
+def check_guess(player_guess, secret_number):
+    if player_guess == secret_number:
         return "correct"
-    elif guess < secret_number:
+    elif player_guess < secret_number:
         return "low"
     else:
         return "high"
@@ -21,4 +21,4 @@ def show_feedback(result):
     elif result == "high":
         print("Too high")
     else:
-        print(f'Error, invalid result: "{result}"')
+      print(f'Error, invalid result: "{result}"')

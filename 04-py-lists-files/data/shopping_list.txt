@@ -1,0 +1,5 @@
+brød    2
+melk    1
+epler   5
+blåbær  1pk
+grøt    2 pakker

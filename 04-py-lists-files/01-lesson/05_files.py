@@ -39,7 +39,8 @@ with open(report_path, "w", encoding = "utf-8") as file:
 with open(report_path, "a", encoding = "utf-8") as file:
     file.write("Another line\n")
 
-report_lines = [
+report_lines = \
+    [
     "Item: Epler",
     "Amount: 20",
     "Price: 96.50"

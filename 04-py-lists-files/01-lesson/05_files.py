@@ -35,7 +35,7 @@ report_path = data_directory / "price_report.txt"
 with open(report_path, "w", encoding = "utf-8") as file:
     file.write("First line\n")
 
-# New content at end of file
+# New content at end of file "a"
 with open(report_path, "a", encoding = "utf-8") as file:
     file.write("Another line\n")
 
